@@ -16,6 +16,7 @@ class UserTableSeede extends Seeder
             'mssv' => '102130054',
             'ngaysinh' => '1995-03-24',
             'gioitinh' => true,
+            'lop' => "13T1",
             'diachi' => 'Huế',
             'password' => bcrypt('123456'),
         ]);

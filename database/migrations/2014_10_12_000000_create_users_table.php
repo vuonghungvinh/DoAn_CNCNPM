@@ -20,6 +20,7 @@ class CreateUsersTable extends Migration
             $table->date('ngaysinh');
             $table->boolean('gioitinh');
             $table->string('diachi', 255);
+            $table->string('lop',10);
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();

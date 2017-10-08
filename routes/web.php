@@ -32,6 +32,8 @@ Route::prefix('admin')->group(function () {
         Route::get('/', function(){
           return view('home');
         });
-        
+        Route::prefix("students")->group(function() {
+            Route::get("/", "SinhVienController@index");
+        });
     });
 });
